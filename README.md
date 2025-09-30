@@ -37,6 +37,6 @@ The code defines memory addresses for GPIO peripherals: GPSETO0, GPCLR0, GPFSEL1
 This traffic light system demonstrates how ARM assembly language can be used to interact with hardware on the Raspberry Pi 4. The project provides a practical example of embedded system programming, hardware interfacing and GPIO control using assembly language.
 
 ## Compilation and Execution ##
-as -o traffic_light.o traffic_light.s
-gcc -o traffic_light traffic_light.o
+- as -o traffic_light.o traffic_light.s
+- gcc -o traffic_light traffic_light.o
 ./traffic_light
