@@ -39,4 +39,4 @@ This traffic light system demonstrates how ARM assembly language can be used to 
 ## Compilation and Execution ##
 - as -o traffic_light.o traffic_light.s
 - gcc -o traffic_light traffic_light.o
-./traffic_light
+- ./traffic_light
